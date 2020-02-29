@@ -3,7 +3,7 @@ of 10 dimensions and 50 facets
 
 library("volesti")
 H=GenRandHpoly(10,50)
-vol=volume(P)
+vol=volume(H)
 
 
 output is
