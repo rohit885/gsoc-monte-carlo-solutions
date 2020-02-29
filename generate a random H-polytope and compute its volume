@@ -1,0 +1,10 @@
+for genrating a random H polytope
+of 10 dimensions and 50 facets
+
+library("volesti")
+H=GenRandHpoly(10,50)
+vol=volume(P)
+
+
+output is
+vol=2.55016
