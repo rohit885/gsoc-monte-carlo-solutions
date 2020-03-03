@@ -5,7 +5,10 @@ library("volesti")
 H=GenRandHpoly(10,50)
 vol=volume(H)
 
-
-output is
 vol=2.55016
  
+for 5 dimensions and 10 facets
+vol=5.263789
+
+for 7 dimension and 15 facets
+vol=4.724766
