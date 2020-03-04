@@ -1,0 +1,50 @@
+
+CASE 1
+when a=-1 and n=3
+Using uniform distribution
+value of integral by cubature package=25.03299
+value of iintegaral by volesti package=25.5
+%error =1.88%
+run time is nearly same as of cubature package sample points used are 50
+(%error is minimum for this value of N)
+
+using gaussian distribution
+value of integral by cubature package=25.03299
+calue of integral by volesti package=27.86
+%error=11.3%
+run time is nearly same as of cubature package sample points used are 50
+(%error is minimum for this value of N)
+
+
+CASE 2
+when a=-1 and n=4
+Using uniform distribution
+value of integral by cubature package=73.22
+value of integaral by volesti package=73.53
+%error =0.42%
+run time is nearly same as of cubature package sample points used are 10000
+(%error is minimum for this value of N)
+
+using gaussian distribution
+value of integral by cubature package=73.22
+calue of integral by volesti package=66.65
+%error=8.9%
+run time is nearly same as of cubature package sample points used are 10000
+(%error is minimum for this value of N)
+
+
+CASE 3
+when a=-1 and n=5
+Using uniform distribution
+value of integral by cubature package=214.217
+value of integaral by volesti package=213.85
+%error =0.017%
+run time is greater than the run time of cubature package sample points used are 100000 
+(%error is minimum for this value of N)
+
+using gaussian distribution
+value of integral by cubature package=214.217
+value of integaral by volesti package=205.30
+%error =4.16%
+run time is greater than the run time of cubature package sample points used are 100000 
+(%error is minimum for this value of N)
