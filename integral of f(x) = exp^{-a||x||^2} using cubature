@@ -6,7 +6,7 @@ f<-function(x){exp(a*sum(x^2))}
 hcubature(f,rep(-1,n),rep(1,n),tol=1e-5)
 
 
-For a=.5
+For a=-.5
 n=1   $integral=2.389915
 n=3   $integral=13.65047
 n=5   $integral=77.96729
@@ -14,14 +14,14 @@ n=8   $integral=1064.288
 n=9   $integral=2543.564
 n=10  no output tilll 5 minutes
 
-For a=5
+For a=-5
 n=1  $integral=34.34432
 n=3  $integral=40510.22
 n=4  $integral=1391290
 n=5  no output till 5 minutes
 
 
-For a=10
+For a=-10
 n=1     $integral=2336.461
 n=2     $integral=5459050
 n=3     $integral=12754850767
