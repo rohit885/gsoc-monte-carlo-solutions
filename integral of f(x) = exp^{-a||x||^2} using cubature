@@ -1,7 +1,13 @@
+#integration the function exp(a*sum(x^2)) over the cube [-1,1]^n for various values of a and n using the cubature package
+# also compares the time analysis of the integration for varius values of a and n
 using the cubature package 
 for creating the function and calculating its integral
 
+#using this function in r interface to calculate the integral
+#where a is the constant and n is the dimension of the cube
 
+
+library("cubature")
 f<-function(x){exp(a*sum(x^2))}
 hcubature(f,rep(-1,n),rep(1,n),tol=1e-5)
 
@@ -27,3 +33,6 @@ n=2     $integral=5459050
 n=3     $integral=12754850767
 n=4     $integral=2.98011e+13
 n=5     no output till 5 minutes
+
+# as the value of a and n grows the running time get worsens each time and crashes for more higher values of n
+# as the value of n increases the precision also worsens very faastly before collasping
